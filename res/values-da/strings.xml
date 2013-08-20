@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">ROM Control</string>
+    <string name="app_name">ROM-kontrol</string>
 
     <!-- Header Strings -->
-    <string name="user_interface">Interface</string>
+    <string name="user_interface">Brugerflade</string>
     <string name="cancel">Annuller</string>
     <string name="ok">OK</string>
     <string name="menu_main_activity_change_locale">Blank!</string>
     <string name="header_statusbar">Statusbar</string>
-    <string name="header_navbar">Navigation Bar</string>
+    <string name="header_navbar">Navigationslinje</string>
     <string name="toggles_layout">Toggles</string>
-    <string name="general_ui">Generel UI</string>
+    <string name="general_ui">Generel brugerflade</string>
     <string name="clock">Ur</string>
     <string name="battery">Batteri</string>
     <string name="signal">Signal</string>
-    <string name="nav_bar">Navigation Bar</string>
-    <string name="power_menu">Strøm Menu</string>
+    <string name="nav_bar">Navigationslinje</string>
+    <string name="power_menu">Strøm-menu</string>
     <string name="led_options">LED</string>
     <string name="header_system">System</string>
     <string name="sound">Lyd</string>
@@ -27,16 +27,16 @@
 
     <!-- Activity titles defined in AndroidManifest.xml -->
     <string name="title_about">Om AOKP</string>
-    <string name="title_ui">Generel Bruger Interface</string>
-    <string name="title_statusbar_clock">Statusbar Ur</string>
-    <string name="title_statusbar_toggles">Statusbar Toggles</string>
-    <string name="title_statusbar_battery">Statusbar Batteri</string>
-    <string name="title_navbar">Navigation Bar</string>
-    <string name="title_power_menu">Strøm Menu</string>
-    <string name="title_led">LED Kontrol</string>
-    <string name="title_lockscreens">Låseskærm Indstillinger</string>
-    <string name="title_lockscreens_targets">Låseskærm Targets</string>
-    <string name="title_navring">Navigation Ring</string>
+    <string name="title_ui">Generel brugerflade</string>
+    <string name="title_statusbar_clock">Statusbar-ur</string>
+    <string name="title_statusbar_toggles">Statusbar-toggles</string>
+    <string name="title_statusbar_battery">Statusbar-batteri</string>
+    <string name="title_navbar">Navigationslinje</string>
+    <string name="title_power_menu">Strøm-menu</string>
+    <string name="title_led">LED-kontrol</string>
+    <string name="title_lockscreens">Indstillinger for låseskærm</string>
+    <string name="title_lockscreens_targets">Låseskærm-targets</string>
+    <string name="title_navring">Navigationsring</string>
     <string name="title_sound">Lydinstillinger</string>
     <string name="title_weather">Vejrindstillinger</string>
     <string name="title_performance">Ydelsesindstillinger</string>
@@ -58,9 +58,9 @@
     <string name="header_summary_vibrations">@null</string>
 
     <!-- Menu Strings -->
-    <string name="menu_nav_bar_reset">Nulstil nav bar</string>
-    <string name="menu_user_interface_reset">Nulstil meddelelsestapet</string>
-    <string name="menu_lockscreens_reset">Nulstil låseskærmtapet</string>
+    <string name="menu_nav_bar_reset">Nulstil navigationslinje</string>
+    <string name="menu_user_interface_reset">Nulstil notifikationslinje</string>
+    <string name="menu_lockscreens_reset">Nulstil låseskærmstapet</string>
 
     <!-- General Strings -->
     <string name="advanced_settings">Avancerede indstillinger</string>
@@ -69,119 +69,119 @@
 
     <!-- Power Menu -->
     <string name="title_show_power_saver">Vis strømsparing</string>
-    <string name="title_show_screenshot">Vis screenshot</string>
-    <string name="title_show_torch_toggle">Vis lygte toggle</string>
-    <string name="title_show_airplane_toggle">Vis flytilstand toggle</string>
-    <string name="title_show_navbar_hide">Vis navigation bar toggle</string>
+    <string name="title_show_screenshot">Vis skærmbillede</string>
+    <string name="title_show_torch_toggle">Vis lygte-knap</string>
+    <string name="title_show_airplane_toggle">Vis flytilstand-knap</string>
+    <string name="title_show_navbar_hide">Vis navigationslinje-knap</string>
 
     <!-- Power Saving -->
     <string name="title_pref_powersaving_pref_mode">Aktiver strømsparing</string>
     <string name="summary_pref_powersaving_pref_mode">@null</string>
 
-    <string name="title_pref_powersaving_data_screen_off">Slukket skærm dataforbindelse aktion</string>
-    <string name="summary_pref_powersaving_data_screen_off">Hvad skal der ske med dataforbindelse når skærmen slukker</string>
+    <string name="title_pref_powersaving_data_screen_off">dataforbindelse-handling ved slukket skærm</string>
+    <string name="summary_pref_powersaving_data_screen_off">Hvad skal der ske med dataforbindelsen, når skærmen slukker?</string>
 
-    <string name="title_pref_powersaving_data_screen_off_delay">Dataforbindelse aktion forsinkelse</string>
-    <string name="summary_pref_powersaving_data_screen_off_delay">Hvor længe skal der ventes før aktion på dataforbindelse bliver taget?</string>
+    <string name="title_pref_powersaving_data_screen_off_delay">Forsinkelse ved dataforbindelse-handling</string>
+    <string name="summary_pref_powersaving_data_screen_off_delay">Hvor længe skal der ventes, før handling for dataforbindelse foretages?</string>
 
     <!-- Shortcut picker -->
     <string name="use_custom_app_title">Brug alternativ app</string>
-    <string name="use_custom_app_summary">Brug alternativ app i stedet for standard nylige apps dialog</string>
+    <string name="use_custom_app_summary">Brug alternativ app i stedet for standardapp</string>
     <string name="select_custom_app_title">Vælg alternativ app</string>
     <string name="group_applications">Programmer</string>
 
     <!-- About -->
     <string name="devs">Holdet</string>
     <string name="aokp">Android Open Kang Project</string>
-    <string name="aokp_website_title">AOKP Website</string>
+    <string name="aokp_website_title">AOKP-webside</string>
     <string name="aokp_website_summary">www.aokp.co - Find alle de nyeste versioner her.</string>
     <string name="aokp_review_title">AOKP Code Review</string>
-    <string name="aokp_review_summary">AOKP\'s Gerrit Review eksempel til indsendelse og test af patches</string>
+    <string name="aokp_review_summary">AOKP\'s Gerrit Review-eksempel til indsendelse og test af patches</string>
     <string name="aokp_irc_title">Besøg os på IRC</string>
     <string name="aokp_irc_summary">#teamkang @ irc.freenode.net</string>
     <string name="about_aokp">Om AOKP</string>
     <string name="about_aokp_summary">@null</string>
 
     <!-- General UI -->
-    <string name="bootani_cat">Boot Animation</string>
-    <string name="navbar_cat">NavBar</string>
-    <string name="notification_cat">Meddelelse</string>
-    <string name="tabletUI_cat">Tablet UI</string>
+    <string name="bootani_cat">Bootanimation</string>
+    <string name="navbar_cat">Navigationslinje</string>
+    <string name="notification_cat">Meddelelser</string>
+    <string name="tabletUI_cat">Tablet-brugerflade</string>
     <string name="status_bar_notif_count_title">Vis meddelelsesantal</string>
-    <string name="status_bar_notif_count_summary">Vi antallet af afventende meddelelser i status bar</string>
+    <string name="status_bar_notif_count_summary">Vi antallet af afventende meddelelser i statuslinje</string>
     <string name="vibrate_notif_expand_title">Vibrer ved udvidelse</string>
-    <string name="vibrate_notif_expand_summary">Vibrer ved udvidelse af meddelelser (kræver UI genstart)</string>
-    <string name="disable_bootanimation_title">Deaktiver boot animation</string>
-    <string name="custom_bootanimation_title">Alternativ boot animation</string>
-    <string name="custom_bootanimation_summary">Vælg bootanimation zip fra sdcard. Nuværende bootanimation vil blive gemt i /system/media.</string>
-    <string name="install_file_manager_error">Ingen til at vælge zip filen fundet. Installer venligst en filmanager.</string>
+    <string name="vibrate_notif_expand_summary">Vibrer ved udvidelse af meddelelser (kræver UI-genstart)</string>
+    <string name="disable_bootanimation_title">Deaktiver bootanimation</string>
+    <string name="custom_bootanimation_title">Alternativ bootanimation</string>
+    <string name="custom_bootanimation_summary">Vælg bootanimation .zip-fil fra sd-kort. Nuværende bootanimation vil blive gemt i /system/media.</string>
+    <string name="install_file_manager_error">Ingen app til at vælge zip filen blev fundet. Installer venligst en filmanager.</string>
     <string name="notification_wallpaper_title">Vælg meddelelsesbaggrund</string>
     <string name="notification_wallpaper_summary">Du kan fjerne tapetet fra menuen i dette vindue</string>
-    <string name="notif_wallpaper_alpha_title">Meddelelse baggrund gennemsigtighed</string>
-    <string name="alpha_dialog_title">Sæt gennemsigtighed værdi</string>
-    <string name="custom_carrier_label_title">Brugerdefineret udbyder label</string>
-    <string name="custom_carrier_label_explain">Indtast en ny label. Indtast en tom label for at vende tilbage til standard.</string>
-    <string name="custom_carrier_label_notset">Brugerdefineret label er ikke valgt</string>
-    <string name="ime_switcher_title">Vis IME Switcher</string>
+    <string name="notif_wallpaper_alpha_title">Gennemsigtighed for meddelelsesbaggrund</string>
+    <string name="alpha_dialog_title">Sætværdi for gennemsigtighed</string>
+    <string name="custom_carrier_label_title">Brugerdefineret udbydermærkat</string>
+    <string name="custom_carrier_label_explain">Indtast et nyt mærkat. Indtast et tomt mærkat for at vende tilbage til standard.</string>
+    <string name="custom_carrier_label_notset">Brugerdefineret mærkat er ikke valgt</string>
+    <string name="ime_switcher_title">Vis IME-omskifter</string>
     <string name="ime_switcher_summary">I statusbar mens du skriver</string>
-    <string name="rotate_180_title">TIllad 180 grader rotation</string>
+    <string name="rotate_180_title">Tillad 180 graders rotation</string>
     <string name="rotate_180_summary">Lad din enhed vende på hovedet!</string>
-    <string name="recent_kill_all">Aktiver kill-all-knap</string>
-    <string name="recent_kill_all_summary">Viser en knap til at lukke alt i nylige vinduet</string>
-    <string name="ram_bar">Nylige RAM Bar</string>
-    <string name="ram_bar_summary">Vis RAM forbrug i nylige menuen</string>
+    <string name="recent_kill_all">Aktiver "stop alle"-knap</string>
+    <string name="recent_kill_all_summary">Viser en knap til at lukke alt i "seneste apps"-vinduet</string>
+    <string name="ram_bar">Seneste RAM-linje</string>
+    <string name="ram_bar_summary">Vis RAM-forbrug i "seneste apps"-menuen</string>
     <string name="kill_app_longpress_back">Hold tilbage for at lukke</string>
     <string name="kill_app_longpress_back_summary">Hold tilbage nede for at lukke nuvænrede aktivitet</string>
-    <string name="tablet_ui">Tving Tablet UI</string>
-    <string name="tablet_ui_summary">Dette vil skifte til Tablet UI (kræver genstart)</string>
-    <string name="hide_extras">Gem Extras</string>
-    <string name="hide_extras_summary">Gem nogen systembar indstillinger f.eks. kompatibilitetsknap (kræver UI genstart)</string>
-    <string name="bootanimation_preview">Bootanimation forhåndsvisning</string>
+    <string name="tablet_ui">Tving tablet-brugerflade</string>
+    <string name="tablet_ui_summary">Dette vil skifte til tablet-brugerflade (kræver genstart)</string>
+    <string name="hide_extras">Gem ekstra</string>
+    <string name="hide_extras_summary">Skjul nogle systemlinjeindstillinger, f.eks. kompatibilitetsknap (kræver brugerfladegenstart)</string>
+    <string name="bootanimation_preview">Forhåndsvisning af bootanimation</string>
     <string name="apply">Anvend</string>
-    <string name="creating_preview">Laver forhåndsvisning...</string>
-    <string name="error_reading_zip_file">Fejl ved læsning af zip fil</string>
+    <string name="creating_preview">Laver forhåndsvisning ...</string>
+    <string name="error_reading_zip_file">Fejl ved læsning af .zip-fil</string>
     <string name="error_creating_preview">Fejl ved dannelse af forhåndsvisning</string>
-    <string name="multipane_ui">Aktiver Dual panel</string>
-    <string name="multipane_ui_summary">Dette vil Aktivere/Deaktivere Dual panel view (kræver genstart)</string>
-    <string name="alt_resolver">Brug Alternativ Standard App Gitter</string>
-    <string name="alt_resolver_summary">Brug Alternativ (GB stil) Standard App Vælger</string>
-    <string name="show_overflow_title">Vis Menu UI Overflow</string>
-    <string name="show_overflow_summary">Vis 3-dot overflow menu knap i apps</string>
-    <string name="show_overflow_toast_enable">Menu overflow knappen er muligvis først synlig efter appen er genstartet</string>
-    <string name="show_overflow_toast_disable">Menu overflow knappen er muligvis først skjult efter appen er genstartet</string>
+    <string name="multipane_ui">Aktiver dobbeltpanel</string>
+    <string name="multipane_ui_summary">Dette vil aktivere/deaktivere dobbeltpanel-visning (kræver genstart)</string>
+    <string name="alt_resolver">Brug alternativ standardapp-gitter</string>
+    <string name="alt_resolver_summary">Brug alternativ (GB stil) standardapp-vælger</string>
+    <string name="show_overflow_title">Vis menuknap</string>
+    <string name="show_overflow_summary">Vis 3-punkts menuknap i apps</string>
+    <string name="show_overflow_toast_enable">Menuknappen er muligvis først synlig, efter appen er genstartet</string>
+    <string name="show_overflow_toast_disable">Menuknappen er muligvis først skjult, efter appen er genstartet</string>
 
     <!-- LCD Density -->
-    <string name="lcd_density_title">LCD Tæthed</string>
+    <string name="lcd_density_title">LCD-tæthed</string>
     <string name="lcd_density_summary">ukendt</string>
-    <string name="current_lcd_density">"Nuværende LCD Tæthed: "</string>
-    <string name="lcd_density_wizard">LCD Tæthed Wizard</string>
+    <string name="current_lcd_density">"Nuværende LCD-tæthed: "</string>
+    <string name="lcd_density_wizard">Guide til LCD-tæthed</string>
     <string name="follow_through_title">Følg igennem!</string>
-    <string name="follow_through_summary">Vær sikker på at du følger skridtene et af gangen, og færdiggør hver enkelt før du går videre til den næste.</string>
-    <string name="stock_density_title">1. Skift LCD Tæthed til standard værdi</string>
+    <string name="follow_through_summary">Vær sikker på, at du følger skridtene et af gangen, og færdiggør hver enkelt trin, før du går videre til det næste.</string>
+    <string name="stock_density_title">1. Skift LCD-tæthed til standard ærdi</string>
     <string name="stock_density_summary">Tablets og ældre telefoner bruger 160. De fleste telefoner bruger 240. Galaxy Nexus bruger 320 som standard.</string>
     <string name="stock_density_changed_summary">"Tæthed sat til: "</string>
     <string name="reboot_title">2. Genstart!</string>
-    <string name="reboot_summary">Kom tilbage hertil efter genstart, og følg resten af skridtene!</string>
-    <string name="clear_market_data_title">3. Slet Play Butik data</string>
-    <string name="clear_market_data_cleared">Play Butik data slettet</string>
-    <string name="clear_market_data_donot_cleared">"Play Butik data kunne ikke slettes, gør det venligst manuelt!"</string>
+    <string name="reboot_summary">Kom tilbage hertil efter genstart og følg resten af skridtene!</string>
+    <string name="clear_market_data_title">3. Slet Play-butik-data</string>
+    <string name="clear_market_data_cleared">Play-butik-data slettet</string>
+    <string name="clear_market_data_donot_cleared">"Play-butik-data kunne ikke slettes. Gør det venligst manuelt!"</string>
     <string name="dpi">DPI</string>
-    <string name="open_market_title">4. Åbn Play Butik og tryk accepter</string>
-    <string name="open_market_summary">Tryk tilbage når det er gjort for at komme tilbage hertil.</string>
-    <string name="open_market_summary_could_not_open">"Kunne ikke åbne Play Butik! Hvis du er sikker på det er installeret, så start det manuelt fra din launcher."</string>
+    <string name="open_market_title">4. Åbn Play-butik og tryk accepter</string>
+    <string name="open_market_summary">Tryk tilbage, når det er gjort for at komme tilbage hertil.</string>
+    <string name="open_market_summary_could_not_open">"Kunne ikke åbne Play-btik! Hvis du er sikker på, atdet er installeret, så start det manuelt fra din startskærm."</string>
     <string name="custom_density_title">5. Skift tæthed til hvad du synes!</string>
-    <string name="custom_density_summary">Hvis du har kompatibilitetsproblemer med Play Butik, så kom tilbage hertil og gentag processen.</string>
+    <string name="custom_density_summary">Hvis du har kompatibilitetsproblemer med Play-butikken, så kom tilbage hertil og gentag processen.</string>
     <string name="custom_density_summary_invalid">"UGYLDIG TÆTHED!"</string>
     <string name="custom_density">brugerdefineret</string>
     <string name="set_custom_density_title">Sæt brugerdefineret tæthed</string>
     <string name="set_custom_density_set">Sæt</string>
     <string name="custom_density_dialog_title">"ADVARSEL!"</string>
-    <string name="custom_density_dialog_summary">"Ændring af LCD tæthed kan give uventet adfærd i apps. Hvis du oplever kompatibilitetsproblemer med apps fra Play Butik, kom tilbage hertil og gentag processen fra skridt 1."</string>
+    <string name="custom_density_dialog_summary">"Ændring af LCD-tæthed kan give uventet adfærd i apps. Hvis du oplever kompatibilitetsproblemer med apps fra Play-utik, så kom tilbage hertil og gentag processen fra skridt 1."</string>
     <string name="custom_density_dialog_button_got">Fik det!</string>
     <string name="custom_density_dialog_button_reboot">Genstart nu</string>
 
     <!-- Statusbar | Toggles -->
-    <string name="toggle_style_title">Toggle stil</string>
+    <string name="toggle_style_title">Toggle-stil</string>
     <string name="toggle_style_summary">Vis ikoner eller tekst på dine toggles.</string>
     <string name="toggles_layout_title">Toggle Layout</string>
     <string name="enabled_toggles_title">Aktiverede toggles</string>
